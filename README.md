@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-iot
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-iot-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Cloud IoT API client library
+
+Development: https://github.com/googleapis/python-iot
+
+Documentation: https://googleapis.dev/python/iot/latest/index.html
 
 Google Cloud IoT API client library is a Google Cloud service that lets client applications communicate with the Google Cloud IoT platform. Google Cloud IoT is a complete set of tools to connect, process, store, and analyze data both at the edge and in the cloud. The platform consists of scalable, fully-managed cloud services as well as an integrated software stack for edge/on-premises computing with machine learning capabilities for all your IoT needs.
 See the [quick start guide](https://googleapis.dev/python/iot/latest/index.html#quick-start).
