@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-iot
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-iot-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Cloud IoT API client library
+
+Development: https://github.com/googleapis/python-iot
+
+Documentation: https://googleapis.dev/python/iot/latest/index.html
 
 Google Cloud IoT API client library is a Google Cloud service that lets client applications communicate with the Google Cloud IoT platform. Google Cloud IoT is a complete set of tools to connect, process, store, and analyze data both at the edge and in the cloud. The platform consists of scalable, fully-managed cloud services as well as an integrated software stack for edge/on-premises computing with machine learning capabilities for all your IoT needs.
 See the [quick start guide](https://googleapis.dev/python/iot/latest/index.html#quick-start).
@@ -39,6 +43,7 @@ Installing `google-cloud-iot` from the `conda-forge` channel can be achieved by 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `google-cloud-iot` can be installed with:
@@ -109,9 +114,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
