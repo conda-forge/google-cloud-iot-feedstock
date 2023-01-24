@@ -1,6 +1,6 @@
 {% set name = "google-cloud-iot" %}
-{% set version = "2.8.0" %}
-{% set sha256 = "61c9062e9dc0e2b9e0b3f2973a0dff004e11c9ba14228cb43467f8e2e9e7fe7b" %}
+{% set version = "2.8.1" %}
+{% set sha256 = "461db71db1efd45566899b72a1fbf46e4b6feed656377212e6341ac336c57d19" %}
 
 package:
   name: {{ name|lower }}
