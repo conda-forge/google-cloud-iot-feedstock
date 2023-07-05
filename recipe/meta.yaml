@@ -1,6 +1,6 @@
 {% set name = "google-cloud-iot" %}
-{% set version = "2.9.1" %}
-{% set sha256 = "ebee84b11763dfc8c3fa2de78551ce235c1519660a30818320b1e03b7c0def38" %}
+{% set version = "2.9.2" %}
+{% set sha256 = "a4b42073047cf45fbd8dc483b56ff9fba1b2f9693b5d07f8883e3dbc33e437d5" %}
 
 package:
   name: {{ name|lower }}
@@ -38,8 +38,8 @@ about:
   license_family: Apache
   license_file: LICENSE
   summary: Google Cloud IoT API client library
-  description: "Google Cloud IoT API client library is a Google Cloud service that lets client applications communicate with the Google Cloud IoT platform. Google Cloud IoT is a complete set of tools to connect, process, store, and analyze data both at the edge and in the cloud. The platform consists of scalable, fully-managed\
-    \ cloud services as well as an integrated software stack for edge/on-premises computing with machine learning capabilities for all your IoT needs.\nSee the [quick start guide](https://googleapis.dev/python/iot/latest/index.html#quick-start)."
+  description: "Google Cloud IoT API client library is a Google Cloud service that lets client applications communicate with the Google Cloud IoT platform. Google Cloud IoT is a complete set of tools to connect, process, store, and analyze data both at the edge and in the cloud. The platform consists of scalable, fully-managed
+    cloud services as well as an integrated software stack for edge/on-premises computing with machine learning capabilities for all your IoT needs.\nSee the [quick start guide](https://googleapis.dev/python/iot/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/iot/latest/index.html
   dev_url: https://github.com/googleapis/python-iot
